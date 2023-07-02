@@ -35,7 +35,7 @@ export function SettingModal(
     // @ts-ignore
     <Modal
       active={props.active}
-      title="配置"
+      title="Setting"
       showClose={false}
       onClose={props.onClose}
       actions={[
@@ -55,14 +55,13 @@ export function SettingModal(
     >
       <div className={styles.settingContent}>
         <p>
-          在你开始使用 AI Assistant 之前，我们需要你提供一个 API 密钥。目前，我们只支持
-          OpenAI，但很快就会有更多的支持。你可以通过{' '}
+          Before you can start using AI Assistant, we need you to provide an API key. Currently, we only support OpenAI, but more support will be coming soon. you can pass{' '}
 
         </p>
 
         <br />
 
-        <p>如果您不设置，AI Assistant 会提供免费的服务，但是这可能不太稳定</p>
+        <p>AI Assistant is free if you don't set it up, but it might be unstable</p>
 
         <br />
 
