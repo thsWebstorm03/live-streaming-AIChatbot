@@ -227,8 +227,8 @@ function setVideoElement(stream) {
   if (talkVideo.paused) {
     talkVideo
       .play()
-      .then((_) => {})
-      .catch((e) => {});
+      .then((_) => { })
+      .catch((e) => { });
   }
 }
 
